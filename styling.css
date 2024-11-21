@@ -125,8 +125,8 @@
 
 /* Media Queries for Responsiveness */
 
-/* Small screens (mobile devices) */
-@media (max-width: 768px) {
+/* Portrait Orientation for Small Screens (mobile devices) */
+@media (max-width: 768px) and (orientation: portrait) {
     .form {
         width: 100%;
         padding: 15px;
@@ -162,11 +162,11 @@
     }
 }
 
-/* Medium screens (tablets) */
-/*@media (min-width: 769px) and (max-width: 1024px) {
+/* Landscape Orientation for Small Screens (mobile devices) */
+@media (max-width: 768px) and (orientation: landscape) {
     .form {
-        width: 300px;
-        padding: 20px;
+        width: 80%;
+        padding: 15px;
         top: 50px;
     }
 
@@ -177,12 +177,12 @@
 
     .form input {
         width: 100%;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .btnn {
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .btnnn {
@@ -199,41 +199,5 @@
     }
 }
 
-/* Large screens (desktops) */
-/*@media (min-width: 1025px) {
-    .form {
-        width: 250px;
-        height: 380px;
-        padding: 25px;
-        top: 20px;
-    }
-
-    .form h2 {
-        width: 220px;
-        font-size: 22px;
-    }
-
-    .form input {
-        width: 240px;
-        font-size: 15px;
-    }
-
-    .btnn {
-        width: 240px;
-        font-size: 18px;
-    }
-
-    .btnnn {
-        width: 240px;
-        font-size: 20px;
-    }
-
-    .link {
-        font-size: 17px;
-    }
-
-    .form .link a {
-        font-size: 17px;
-    }
-}
-*/
+/* Medium screens (tablets) */
+@media (min-width: 769px) and (m

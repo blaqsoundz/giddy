@@ -228,40 +228,72 @@ ul li a:hover {
     }
 }
 
-/* Medium screens (tablets) */
-/*@media (min-width: 769px) and (max-width: 1024px) {
+/* Portrait orientation (landscape is automatically handled by the same media query) */
+@media (max-width: 768px) and (orientation: portrait) {
     .navbar {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .logo {
-        font-size: 30px;
-        padding-left: 20px;
+        padding: 15px;
     }
 
     .menu {
-        width: 60%;
-        float: left;
-    }
-
-    ul li {
-        margin-left: 40px;
-        font-size: 16px;
+        text-align: center;
     }
 
     .search {
-        width: 200px;
-        float: right;
+        width: 100%;
         margin-left: 0;
     }
 
     .srch {
-        width: 160px;
+        width: 80%;
+        margin-left: 0;
     }
 
-    .btn {
+    .content {
         width: 100%;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+}
+
+/* Landscape orientation */
+@media (max-width: 768px) and (orientation: landscape) {
+    .navbar {
+        padding: 12px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .search {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .srch {
+        width: 70%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+}
+
+/* Larger screens (tablet and beyond) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logo {
+        font-size: 30px;
+    }
+
+    .menu {
+        width: 50%;
     }
 
     .content h1 {
@@ -269,66 +301,6 @@ ul li a:hover {
     }
 
     .content .par {
-        font-size: 16px;
-    }
-
-    .content .cn {
-        width: auto;
-        font-size: 18px;
-    }
-}
-
-/* Large screens (desktops) */
-/*@media (min-width: 1025px) {
-    .navbar {
-        width: 1200px;
-        margin: auto;
-    }
-
-    .logo {
-        font-size: 33px;
-        padding-left: 20px;
-    }
-
-    .menu {
-        width: 400px;
-        float: left;
-    }
-
-    ul li {
-        font-size: 14px;
-        margin-left: 62px;
-    }
-
-    .search {
-        width: 330px;
-        float: left;
-        margin-left: 200px;
-    }
-
-    .srch {
-        width: 300px;
-    }
-
-    .btn {
-        width: 100%;
-    }
-
-    .content {
-        width: 1200px;
-        height: auto;
-        margin: auto;
-    }
-
-    .content h1 {
-        font-size: 50px;
-    }
-
-    .content .cn {
-        font-size: 18px;
-    }
-
-    .content span {
-        font-size: 60px;
+        padding-left: 10px;
     }
 }

@@ -163,7 +163,7 @@
 }
 
 /* Medium screens (tablets) */
-@media (min-width: 769px) and (max-width: 1024px) {
+/*@media (min-width: 769px) and (max-width: 1024px) {
     .form {
         width: 300px;
         padding: 20px;
@@ -200,7 +200,7 @@
 }
 
 /* Large screens (desktops) */
-@media (min-width: 1025px) {
+/*@media (min-width: 1025px) {
     .form {
         width: 250px;
         height: 380px;
@@ -236,3 +236,4 @@
         font-size: 17px;
     }
 }
+*/

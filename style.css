@@ -229,7 +229,7 @@ ul li a:hover {
 }
 
 /* Medium screens (tablets) */
-@media (min-width: 769px) and (max-width: 1024px) {
+/*@media (min-width: 769px) and (max-width: 1024px) {
     .navbar {
         width: 100%;
         padding: 10px;
@@ -279,7 +279,7 @@ ul li a:hover {
 }
 
 /* Large screens (desktops) */
-@media (min-width: 1025px) {
+/*@media (min-width: 1025px) {
     .navbar {
         width: 1200px;
         margin: auto;
